@@ -1,0 +1,7 @@
+version: '3.9' #version del docker compose
+
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80" #mapeo del puerto 8080 (host) al 80 donde esta corriendo el contenedor
